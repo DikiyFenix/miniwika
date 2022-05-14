@@ -239,7 +239,7 @@ OnMenuSelect(Command, ItemName, ItemPos, MenuName)
 																		yep = 0
 																		Clipboard = %Command%
 																		WinActivate, Warframe
-																		Sleep, 100
+																		Sleep, 300
 																		Send {Ctrl Down}v{Ctrl Up}																																	
 																	}	
 																	else											
